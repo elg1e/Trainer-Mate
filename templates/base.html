@@ -7,7 +7,9 @@
 </header>
 
 <body>
-
+    {% for category in categories %}
+        {{ categories.category_name}}
+    {% endfor %}
 </body>
 {% endblock content %}
 </html>
