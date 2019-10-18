@@ -1,9 +1,9 @@
-#TrainerMate
+# TrainerMate
 
 A website where anyone can share there workout routines, exercises, meal plans and recipes.
 TrainerMate allows people across the world to find and share new ways for working out.
 
-##UX
+## UX
 
 The aim for TrainerMate is to have a simple and easy way for user's to find and share ways to keep themselves fit and healthy. TrainerMate can be used by all age ranges.
  The main target audience is anyone looking to enhance their health and lifestyle.
@@ -19,9 +19,9 @@ The aim for TrainerMate is to have a simple and easy way for user's to find and 
 
   Below there are links to my initial ideas/mock-ups of the website:
 
-##Features
+## Features
 
-###Existing Features
+### Existing Features
 
 #### Navigation Bar
 
@@ -51,7 +51,7 @@ Other features that could be implemented in the future could be sign in method a
 them to choose if they'd like to remove something from an earlier date. Furthermore, a like button or a comment area could be added to give the other users reading a chance to
 share there opinion on someone elses post.
 
-##Technologies Used
+## Technologies Used
 
 The following technologies were used to help create this website:
 
@@ -61,8 +61,8 @@ The following technologies were used to help create this website:
 * JQuery: Used to simplify some of the DOM manipulations.
 * Python: Is an interpreted, high-level, general-purpose programming language.
 
-##Testing
+## Testing
 
-##Deployment
+## Deployment
 
-##Credits
+## Credits
