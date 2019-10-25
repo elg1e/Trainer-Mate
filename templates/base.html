@@ -14,6 +14,7 @@
         <li><a href="badges.html">Exercises</a></li>
         <li><a href="collapsible.html">Meal Plans</a></li>
         <li><a href="mobile.html">Recipes</a></li>
+        <li><a href="mobile.html">Share</a></li>
       </ul>
     </div>
   </nav>
@@ -23,6 +24,7 @@
     <li><a href="badges.html">Exercises</a></li>
     <li><a href="collapsible.html">Meal Plans</a></li>
     <li><a href="mobile.html">Recipes</a></li>
+    <li><a href="mobile.html">Share</a></li>
   </ul>
         {% block content %}
         {% endblock %}
@@ -31,6 +33,12 @@
         <script type="text/javascript">
         $(document).ready(function(){
             $('.sidenav').sidenav();
+        });
+        $(document).ready(function() {
+            $('input#input_text, textarea#textarea2').characterCounter();
+        });
+        $(document).ready(function(){
+            $('select').formSelect();
         });
         </script>
     </body>

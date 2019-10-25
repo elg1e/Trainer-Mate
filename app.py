@@ -10,9 +10,9 @@ app.config["MONGO_URI"] = 'mongodb+srv://root:root123@myfirstcluster-rieqe.mongo
 mongo = PyMongo(app)
 
 @app.route('/')
-@app.route('/posts')
-def posts():
-    return render_template("posts.html", posts=mongo.db.posts.find())
+@app.route('/post')
+def post():
+    return render_template("post.html", posts=mongo.db.posts.find())
 
 
 if __name__ == '__main__':
