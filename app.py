@@ -12,7 +12,7 @@ mongo = PyMongo(app)
 @app.route('/')
 @app.route('/post')
 def post():
-    return render_template("post.html", posts=mongo.db.posts.find())
+    return render_template("post.html")
 
 
 if __name__ == '__main__':
