@@ -12,8 +12,14 @@ mongo = PyMongo(app)
 @app.route('/')
 @app.route('/post')
 def post():
-    return render_template("post.html")
+    return render_template("post.html",
+    categories=mongo.db.categories.find())
 
+@app.route('/add_post', methods=["POST"])
+def add_post():
+    posts = mongo.db.posts
+    posts.insert_one(request.form.to_dict())
+    return redirect(url_for('post'))
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),
