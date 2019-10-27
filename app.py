@@ -10,6 +10,9 @@ app.config["MONGO_URI"] = 'mongodb+srv://root:root123@myfirstcluster-rieqe.mongo
 mongo = PyMongo(app)
 
 @app.route('/')
+def home():
+    return render_template("home.html")
+
 @app.route('/post')
 def post():
     return render_template("post.html",
@@ -19,7 +22,7 @@ def post():
 def add_post():
     posts = mongo.db.posts
     posts.insert_one(request.form.to_dict())
-    return redirect(url_for('post'))
+    return redirect(url_for('home'))
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),
