@@ -1,25 +1,26 @@
 {% extends 'base.html' %} {% block content %}
 
 <div class="container">
+    <p>Discover, explore and share new ways to cook healthy, orginise healthier meals or workout and become a healthier fitter version of yourself with TrainerMate.</p>
+</div>
+
+<div class="container">
   <div class="carousel carousel-slider center">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
+    <div class="carousel-item red white-text" href="{{url_for('workout')}}">
+      <h2>Learn New Workouts</h2>
+      <p class="white-text">Whether your just starting out, or a veteran looking for something new look through the workout routines.</p>
     </div>
-    <div class="carousel-item red white-text" href="#one!">
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
+    <div class="carousel-item amber white-text" href="#">
+      <h2>Need to keep your macros in check?</h2>
+      <p class="white-text">Check out the Meal Plans! Weight gain, weight loss or maintaining a weight, check to see if there's a meal plan for you.</p>
     </div>
     <div class="carousel-item green white-text" href="#three!">
-      <h2>Third Panel</h2>
-      <p class="white-text">This is your third panel</p>
+      <h2>Ready to cook?</h2>
+      <p class="white-text">Discover many different healthy recipes! Maybe breakfast, lunch or a post workout snack!</p>
     </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
+    <div class="carousel-item blue white-text" href="{{url_for('post')}}">
+      <h2>Don't forget to share!</h2>
+      <p class="white-text">Not only can you discover but you can also share something you've learnt along the way!</p>
     </div>
   </div>
 </div>
