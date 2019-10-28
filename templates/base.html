@@ -11,7 +11,7 @@
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="{{url_for('home')}}">Home</a></li>
-        <li><a href="badges.html">Workout Routines</a></li>
+        <li><a href="{{url_for('workout')}}">Workout Routines</a></li>
         <li><a href="collapsible.html">Meal Plans</a></li>
         <li><a href="mobile.html">Recipes</a></li>
         <li><a href="{{url_for('post')}}">Share</a></li>
@@ -21,7 +21,7 @@
 
   <ul class="sidenav" id="mobile-demo">
     <li><a href="{{url_for('home')}}">Home</a></li>
-    <li><a href="workout.html">Workout Routines</a></li>
+    <li><a href="{{url_for('workout')}}">Workout Routines</a></li>
     <li><a href="badges.html">Exercises</a></li>
     <li><a href="collapsible.html">Meal Plans</a></li>
     <li><a href="mobile.html">Recipes</a></li>
@@ -39,6 +39,7 @@
         $('.sidenav').sidenav();
         $('input#input_text, textarea#textarea2').characterCounter();
         $('select').formSelect();
+        $('.collapsible').collapsible();
     });
 
     $('.carousel.carousel-slider').carousel({

@@ -24,6 +24,11 @@ def add_post():
     posts.insert_one(request.form.to_dict())
     return redirect(url_for('home'))
 
+@app.route('/workout')
+def workout():
+    return render_template("workout.html",
+    posts=mongo.db.posts.find())
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),
             port=int(os.environ.get('PORT','8000')),
