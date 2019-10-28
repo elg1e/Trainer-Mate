@@ -29,6 +29,14 @@ def workout():
     return render_template("workout.html",
     posts=mongo.db.posts.find())
 
+@app.route('/meal')
+def meal():
+    return render_template("meal.html")
+
+@app.route('/recipes')
+def recipes():
+    return render_template("recipes.html")
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),
             port=int(os.environ.get('PORT','8000')),
