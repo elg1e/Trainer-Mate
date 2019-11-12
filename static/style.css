@@ -2,14 +2,12 @@
 
 body {
     background-color: #252526;
+    font-family: 'Big Shoulders Text', cursive;
+
 }
 
 /*Navigation Bar*/
 
 #navigationBar {
     background-color: #1a1a1d;
-}
-
-.logoLink {
-    color: #C3073F;
 }

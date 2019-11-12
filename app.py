@@ -27,17 +27,17 @@ def add_post():
 @app.route('/workout')
 def workout():
     return render_template("workout.html",
-    posts=mongo.db.posts.find())
+    posts=mongo.db.posts.find({'category_name': "Workout Routines"}))
 
 @app.route('/meal')
 def meal():
     return render_template("meal.html",
-    posts=mongo.db.posts.find())
+    posts=mongo.db.posts.find({'category_name': "Meal Plans"}))
 
 @app.route('/recipes')
 def recipes():
     return render_template("recipes.html",
-    posts=mongo.db.posts.find())
+    posts=mongo.db.posts.find({'category_name': "Recipes"}))
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),
