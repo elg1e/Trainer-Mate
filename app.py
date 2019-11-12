@@ -39,6 +39,12 @@ def recipes():
     return render_template("recipes.html",
     posts=mongo.db.posts.find({'category_name': "Recipes"}))
 
+@app.route('/edit_posts/<posts_id>')
+def edit_posts(posts_id):
+    the_posts = mongo.db.posts.find_one({"_id": ObjectId(posts_id)})
+    all_categories = mongo.db.categories.find()
+    return render_template('editposts.html', posts=the_posts, categories=all_categories)
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),
             port=int(os.environ.get('PORT','8000')),
