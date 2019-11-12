@@ -31,11 +31,13 @@ def workout():
 
 @app.route('/meal')
 def meal():
-    return render_template("meal.html")
+    return render_template("meal.html",
+    posts=mongo.db.posts.find())
 
 @app.route('/recipes')
 def recipes():
-    return render_template("recipes.html")
+    return render_template("recipes.html",
+    posts=mongo.db.posts.find())
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),

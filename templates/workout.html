@@ -1,15 +1,16 @@
 {% extends 'base.html' %} {% block content %}
+
 <h1>Workout Routines</h1>
 
+<div class="container">
 <ul class="collapsible">
+{% for name in posts %}
     <li>
-        {% for name in posts %}
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>{{plan_name}}</div>
-        {% endfor %}
-        {% for text in description %}
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        {% endfor %}
+        <div class="collapsible-header"><i class="material-icons">filter_drama</i>{{name.plan_name}}</div>
+        <div class="collapsible-body"><span>{{name.workout_description}}</span></div>
     </li>
+{% endfor %}
   </ul>
+</div>
 
 {% endblock %}
