@@ -1,11 +1,11 @@
 {% extends 'base.html' %} {% block content %}
 
-<div id="introPara" class="container">
-    <h1 class="title">TrainerMate</h1>
-    <p>Discover, explore and share new ways to cook healthy, orginise healthier meals or workout and become a healthier fitter version of yourself with TrainerMate.</p>
+<div class="container homeParagraph">
+    <h1 class="logo">TrainerMate</h1>
+    <p class="introPara">Discover, explore and share new ways to cook healthy, orginise healthier meals or workout and become a healthier fitter version of yourself with TrainerMate.</p>
 </div>
 
-<div>
+<div class="imgCarousel">
   <div class="carousel carousel-slider center">
     <div class="carousel-item red white-text" href="{{url_for('workout')}}">
       <h2>Learn New Workouts</h2>

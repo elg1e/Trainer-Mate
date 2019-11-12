@@ -5,13 +5,14 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 	</head>
 
     <body>
 
     <nav id="navigationBar">
     <div class="nav-wrapper">
-      <a href="{{url_for('home')}}" class="brand-logo">TrainerMate</a>
+      <a href="{{url_for('home')}}" class="brand-logo logo">TrainerMate</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li class="navList"><a href="{{url_for('home')}}">Home</a></li>
@@ -23,12 +24,12 @@
     </div>
   </nav>
 
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="{{url_for('home')}}">Home</a></li>
-    <li><a href="{{url_for('workout')}}">Workout Routines</a></li>
-    <li><a href="{{url_for('meal')}}">Meal Plans</a></li>
-    <li><a href="{{url_for('recipes')}}">Recipes</a></li>
-    <li><a href="{{url_for('post')}}">Share</a></li>
+  <ul class="sidenav mobileNavbar" id="mobile-demo">
+    <li class="sidenavText"><a href="{{url_for('home')}}">Home</a></li>
+    <li class="sidenavText"><a href="{{url_for('workout')}}">Workout Routines</a></li>
+    <li class="sidenavText"><a href="{{url_for('meal')}}">Meal Plans</a></li>
+    <li class="sidenavText"><a href="{{url_for('recipes')}}">Recipes</a></li>
+    <li class="sidenavText"><a href="{{url_for('post')}}">Share</a></li>
   </ul>
 
 {% block content %}{% endblock %}

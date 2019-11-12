@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Big Shoulders Text', cursive;
+    background-color: #282828;
 }
 
 /*Navigation Bar*/
@@ -10,7 +11,34 @@ body {
     background-color: #1a1a1d;
 }
 
+.mobileNavbar {
+    background-color: #1a1a1d !important;
+}
+
+.sidenavText {
+    color: white !important;
+}
+
 /*Home*/
+
+.homeParagraph {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    color: #ff44bd !important;
+}
+
+.introPara {
+    color: white;
+    font-size: 15px;
+}
+
+.imgCarousel {
+    margin-top: 35%;
+}
 
 /*Workout Routines*/
 
