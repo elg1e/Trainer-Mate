@@ -45,6 +45,22 @@ def edit_posts(posts_id):
     all_categories = mongo.db.categories.find()
     return render_template('editposts.html', post=the_posts, categories=all_categories)
 
+@app.route('/update_posts/<posts_id>', methods=["POST"])
+def update_posts(posts_id):
+    posts = mongo.db.posts
+    posts.update( {'_id': ObjectId(posts_id)},
+    {
+        'plan_name':request.form.get('plan_name'),
+        'category_name':request.form.get('category_name'),
+        'workout_description':request.form.get('workout_description'),
+    })
+    return redirect(url_for('home'))
+
+@app.route('/delete_posts/<posts_id>')
+def delete_posts(posts_id):
+    mongo.db.posts.remove({'_id': ObjectId(posts_id)})
+    return redirect(url_for('home'))
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),
             port=int(os.environ.get('PORT','8000')),
