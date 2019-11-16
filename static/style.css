@@ -34,7 +34,7 @@ body {
 .introPara {
     color: white;
     font-size: 20px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .imgCarousel {
@@ -242,3 +242,35 @@ body {
 /*Meal Plans*/
 
 /*Recipes*/
+
+/*Post Page*/
+
+@media screen and (min-width: 768px) {
+    .shareTitle {
+        text-align: center;
+        margin: 10% 0;
+        font-family: 'Pacifico', cursive;
+        color: #ff44bd;
+    }
+}
+
+.sharePara {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 10%;
+}
+
+.formText {
+    color: white;
+}
+
+.submitButton {
+    background-color: #ff44bd;
+    cursor: pointer;
+}
+
+.submitButton:hover, .submitButton:active, .submitButton:focus {
+    background-color: #ff44bd;
+    cursor: pointer;
+}

@@ -1,38 +1,38 @@
 {% extends 'base.html' %}{% block content %}
 
-<h1>Share your ideas!</h1>
-
 <div class="container">
-	<p>To share your workout routines enter your name to get started! Then just type in the text area so everyone can read all about it!</p>
+    <h1 class="shareTitle">Share your ideas!</h1>
+    <p class="sharePara">To share your workout routines, meal plans or recipes select your category and enter your plan name to get started! Then just type in the text area so everyone can read all about it!</p>
 </div>
+
 <div class="container">
 	<div class="row">
 		<form action="{{url_for('add_post')}}" method="POST" class="col s12">
 			<div class="row">
 				<div class="input-field col s12">
 					<select id="categories" name="category_name">
-                        <option value="" disabled selected>Choose Category</option>
+                        <option disabled selected class="formText">Choose Category</option>
                         {% for cat in categories %}
-						    <option value="{{cat.category_name}}">{{cat.category_name}}</option>
+						    <option value="{{cat.category_name}}" class="formText">{{cat.category_name}}</option>
                         {% endfor %}
 					</select>
-					<label>Select a Category</label>
+					<label class="formText">Select a Category</label>
 				</div>
 			</div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="plan_name" name="plan_name" type="text" class="validate">
-                    <label for="icon_prefix">Plan Name</label>
+                    <input id="plan_name" name="plan_name" type="text" class="validate formText" required>
+                    <label class="formText">Plan Name</label>
                 </div>
             </div>
 			<div class="row">
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea id="workout_description" name="workout_description" class="materialize-textarea"></textarea>
-						<label for="textarea1">Plan Description</label>
+						<textarea id="workout_description" name="workout_description" class="materialize-textarea formText" required></textarea>
+						<label for="textarea1" class="formText">Plan Description</label>
 					</div>
 				</div>
-				<button class="btn waves-effect waves-light" type="submit">Post
+				<button class="btn waves-effect waves-light submitButton" type="submit" >Post
 					<i class="material-icons right">send</i>
 				</button>
 			</div>

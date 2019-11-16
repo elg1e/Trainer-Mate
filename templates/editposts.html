@@ -1,9 +1,8 @@
 {% extends 'base.html' %}{% block content %}
 
-<h1>Edit Post</h1>
-
 <div class="container">
-	<p>To share your workout routines enter your name to get started! Then just type in the text area so everyone can read all about it!</p>
+    <h1 class="shareTitle">Edit Post</h1>
+	<p class="sharePara"></p>
 </div>
 
 <div class="container">
@@ -11,33 +10,33 @@
 		<form action="{{url_for('add_post')}}" method="POST" class="col s12">
 			<div class="row">
 				<div class="input-field col s12">
-					<select id="categories" name="category_name">
+					<select id="categories" name="category_name" class="formText">
                         <option value="" disabled selected>Choose Category</option>
                         {% for cat in categories %}
                             {% if cat.category_name == post.category_name %}
-						    <option value="{{cat.category_name}}" selected >{{cat.category_name}}</option>
+						    <option value="{{cat.category_name}}" selected class="formText">{{cat.category_name}}</option>
                             {% else %}
-                            <option value="{{cat.category_name}}">{{cat.category_name}}</option>
+                            <option value="{{cat.category_name}}" class="formText">{{cat.category_name}}</option>
                             {% endif %}
                         {% endfor %}
 					</select>
-					<label>Select a Category</label>
+					<label class="formText">Select a Category</label>
 				</div>
 			</div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="plan_name" name="plan_name" type="text" class="validate" value="{{post.plan_name}}">
-                    <label for="icon_prefix">Plan Name</label>
+                    <input id="plan_name" name="plan_name" type="text" class="validate formText" value="{{post.plan_name}}">
+                    <label for="icon_prefix" class="formText">Plan Name</label>
                 </div>
             </div>
 			<div class="row">
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea id="workout_description" name="workout_description" class="materialize-textarea">{{post.workout_description}}</textarea>
-						<label for="textarea1">Plan Description</label>
+						<textarea id="workout_description" name="workout_description" class="materialize-textarea formText">{{post.workout_description}}</textarea>
+						<label for="textarea1" class="formText">Plan Description</label>
 					</div>
 				</div>
-				<button class="btn waves-effect waves-light" type="submit">Post
+				<button class="btn waves-effect waves-light submitButton" type="submit">Post
 					<i class="material-icons right">send</i>
 				</button>
 			</div>
