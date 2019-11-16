@@ -25,11 +25,11 @@
   </nav>
 
   <ul class="sidenav mobileNavbar" id="mobile-demo">
-    <li class="sidenavText"><a href="{{url_for('home')}}">Home</a></li>
-    <li class="sidenavText"><a href="{{url_for('workout')}}">Workout Routines</a></li>
-    <li class="sidenavText"><a href="{{url_for('meal')}}">Meal Plans</a></li>
-    <li class="sidenavText"><a href="{{url_for('recipes')}}">Recipes</a></li>
-    <li class="sidenavText"><a href="{{url_for('post')}}">Share</a></li>
+    <li><a class="sidenavText" href="{{url_for('home')}}">Home</a></li>
+    <li><a class="sidenavText" href="{{url_for('workout')}}">Workout Routines</a></li>
+    <li><a class="sidenavText" href="{{url_for('meal')}}">Meal Plans</a></li>
+    <li><a class="sidenavText" href="{{url_for('recipes')}}">Recipes</a></li>
+    <li><a class="sidenavText" href="{{url_for('post')}}">Share</a></li>
   </ul>
 
 {% block content %}{% endblock %}

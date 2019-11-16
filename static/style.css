@@ -23,7 +23,7 @@ body {
 
 .homeParagraph {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 30%;
 }
 
 .logo {
@@ -37,7 +37,54 @@ body {
 }
 
 .imgCarousel {
-    margin-top: 35%;
+    margin-top: 50%;
+}
+
+/*Homepage Media queries*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .imgCarousel {
+    margin-top: 40%;
+    }
+    .homeParagraph {
+    margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .imgCarousel {
+    margin-top: 30%;
+    }
+    .homeParagraph {
+    margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .imgCarousel {
+    margin-top: 25%;
+    }
+    .homeParagraph {
+    margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 1224px) {
+    .imgCarousel {
+    margin-top: 10%;
+    }
+    .homeParagraph {
+    margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 1824px) {
+    .imgCarousel {
+    margin-top: 10%;
+    }
+    .homeParagraph {
+    margin-top: 5%;
+    }
 }
 
 /*Workout Routines*/
