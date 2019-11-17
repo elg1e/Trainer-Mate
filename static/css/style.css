@@ -41,11 +41,6 @@ body {
     margin-top: 50%;
 }
 
-.carouselImages {
-    width: 100%;
-    height: auto;
-}
-
 /*Homepage Media queries*/
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
