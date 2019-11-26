@@ -19,6 +19,9 @@ The aim for TrainerMate is to have a simple and easy way for user's to find and 
 
 Below there are links to my initial ideas/mock-ups of the website:
 
+[Mockup image of small resolution website](https://github.com/elg1e/TrainerMate/blob/master/static/wireframes/TrainerMate-iphone.png)
+[Mockup image of medium resolution website](https://github.com/elg1e/TrainerMate/blob/master/static/wireframes/IpadTrainerMate.png)
+
 ## Features
 
 ### Existing Features
