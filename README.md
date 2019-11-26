@@ -26,24 +26,24 @@ Below there are links to my initial ideas/mock-ups of the website:
 
 ### Existing Features
 
-#### Navigation Bar
+### Navigation Bar
 
 Every feature on the website is designed to be responsive with any device. The Navigation Bar is is designed to collapse to allow the user to see the rest of the website easier.
 
-##### Page Titles
+#### Page Titles
 
 The page title is a simple hyperlink back to the home page to give the user's a fast and easy way to go back. The other page titles are also hyperlinks to enter each individual page.
 
-##### Nav Bar Collapsed Menu Button
+#### Nav Bar Collapsed Menu Button
 
 The Menu button seen when the website is on a smaller resolution, is used as a dropdown menu. This helps to reduce cluttering of the website.
 
-#### Home Screen Carousel Images/Text
+### Home Screen Carousel Images/Text
 
 The home page has a small briefing of each page of the website. In this brief it explains what you will encounter when arrive on them. All of the images/text areas
 are hyperlinks to the pages described.
 
-#### Workout/Meal Plan/Recipe pages
+### Workout/Meal Plan/Recipe pages
 
 On the following pages will be a blank box where a user can enter a plan name and plan type either one of their workout routines, meal plans or recipes. Once the user has
 entered a post it will be there to see for others users to look through. There is also a remove and edit button. Allowing users to change something or delete if they change there mind.
