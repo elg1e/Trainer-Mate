@@ -30,11 +30,11 @@ Below there are links to my initial ideas/mock-ups of the website:
 
 Every feature on the website is designed to be responsive with any device. The Navigation Bar is is designed to collapse to allow the user to see the rest of the website easier.
 
-#### Page Titles
+### Page Titles
 
 The page title is a simple hyperlink back to the home page to give the user's a fast and easy way to go back. The other page titles are also hyperlinks to enter each individual page.
 
-#### Nav Bar Collapsed Menu Button
+### Nav Bar Collapsed Menu Button
 
 The Menu button seen when the website is on a smaller resolution, is used as a dropdown menu. This helps to reduce cluttering of the website.
 

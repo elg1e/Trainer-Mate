@@ -19,7 +19,7 @@ body {
     color: white !important;
 }
 
-/*Home*/
+/*Homepage*/
 
 .homeParagraph {
     text-align: center;
@@ -88,7 +88,7 @@ body {
     }
 }
 
-/*Workout Routines*/
+/*Workout/Meal/Recipe Pages*/
 
 .postTitle {
     text-align: center;
@@ -131,6 +131,8 @@ body {
 .buttons {
     text-align: right;
 }
+
+/*Workout/Meal/Recipe Buttons*/
 
 @-webkit-keyframes hvr-buzz-out {
   10% {
@@ -239,11 +241,7 @@ body {
   font-size: 14px;
 }
 
-/*Meal Plans*/
-
-/*Recipes*/
-
-/*Post Page*/
+/*Post/Edit Page*/
 
 @media screen and (min-width: 768px) {
     .shareTitle {
