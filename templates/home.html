@@ -8,24 +8,24 @@
 
 <!--Image Carousel-->
 <div class="imgCarousel">
-  <div class="carousel carousel-slider center">
-    <div class="carousel-item white-text" href="{{url_for('workout')}}">
+  <div class="carousel carousel-slider center carouselBody">
+    <div class="carousel-item carouselItem" href="{{url_for('workout')}}">
       <img src="static/images/workoutImage.gif" alt="Image of a workout" class="carouselImages">
-      <h2 class="imageHeading">Learn New Workouts</h2>
-      <p class="white-text imageText">Whether your just starting out, or a veteran looking for something new look through the workout routines.</p>
+      <h2 class="imageText">Learn New Workouts</h2>
+      <p class="imageText">Whether your just starting out, or a veteran looking for something new look through the workout routines.</p>
       <a href="{{url_for('workout')}}" class="waves-effect waves-light btn hvr-buzz-out imageButton">Enter</a>
     </div>
-    <div class="carousel-item amber white-text" href="#">
+    <div class="carousel-item carouselItem" href="#">
       <img src="static/images/mealPlanImage.gif" alt="Image of meal preperation" class="carouselImages">
-      <h2>Need to keep your macros in check?</h2>
-      <p class="white-text">Check out the Meal Plans! Weight gain, weight loss or maintaining a weight, check to see if there's a meal plan for you.</p>
+      <h2 class="imageText">Need to keep your macros in check?</h2>
+      <p class="imageText">Check out the Meal Plans! Weight gain, weight loss or maintaining a weight, check to see if there's a meal plan for you.</p>
       <a href="{{url_for('meal')}}" class="waves-effect waves-light btn hvr-buzz-out">Enter</a>
     </div>
-    <div class="carousel-item green white-text" href="#three!">
+    <div class="carousel-item carouselItem" href="#three!">
       <img src="static/images/recipesImage.gif" alt="Image of food" class="carouselImages">
-      <h2>Ready to cook?</h2>
-      <p class="white-text">Discover many different healthy recipes! Maybe breakfast, lunch or a post workout snack!</p>
-      <a href="{{url_for('recipes')}}" class="waves-effect waves-light btn hvr-buzz-out">Enter</a>
+      <h2 class="imageText">Ready to cook?</h2>
+      <p class="imageText">Discover many different healthy recipes! Maybe breakfast, lunch or a post workout snack!</p>
+      <a href="{{url_for('recipes')}}" class="waves-effect waves-light btn hvr-buzz-out carouselButton">Enter</a>
     </div>
   </div>
 </div>
