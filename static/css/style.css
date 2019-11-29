@@ -63,36 +63,46 @@ body {
 
 /*Carousel Text*/
 
+.imageHeading {
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 52%;
+    transform: translate(-75%, -52%);
+    color: white;
+    font-size: 40px;
+}
+
 .imageText {
     position: absolute;
     z-index: 1;
-    top: 0;
-    text-align: center;
+    top: 40%;
+    left: 53%;
+    transform: translate(-60%, -53%);
+    color: white;
+    font-size: 40px;
 }
 
 .carouselButton {
     position: absolute;
     z-index: 1;
-    text-align: center;
+    top: 80%;
+    left: 47.9%;
+    transform: translate(-20%, -47.9%);
 }
 
-/*Carousel Media*/
+/*Carousel Media Queries*/
 
-/*Homepage Media queries*/
-
-@media screen and (min-width: 375px) and (max-width: 480px) {
-}
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-}
-
-@media screen and (min-width: 1224px) {
-}
-
-@media screen and (min-width: 1824px) {
+@media screen and (min-width: 1224px) and (max-width: 1824px) {
+    .imgCarousel {
+        height: 700px;
+    }
+    .carouselBody {
+        height: 700px;
+    }
+    .carouselImages {
+        height: 700px;
+    }
 }
 
 /*Workout/Meal/Recipe Pages*/
