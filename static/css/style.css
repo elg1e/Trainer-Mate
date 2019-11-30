@@ -105,6 +105,23 @@ body {
     }
 }
 
+/*Footer*/
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #1a1a1d;
+}
+
+.footerText {
+    text-align: center;
+    color:#ff44bd;
+    font-family: 'Pacifico', cursive;
+    font-size: 12px;
+}
+
 /*Workout/Meal/Recipe Pages*/
 
 .postTitle {
