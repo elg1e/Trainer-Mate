@@ -81,25 +81,11 @@ main {
     z-index: 1;
 }
 
-/*Carousel Media Queries*/
-
-@media screen and (min-width: 1224px) and (max-width: 1824px) {
-    .imgCarousel {
-        height: 700px;
-    }
-    .carouselBody {
-        height: 700px;
-    }
-    .carouselImages {
-        height: 700px;
-    }
-}
-
 /*Workout/Meal/Recipe Pages*/
 
 .postTitle {
     text-align: center;
-    margin: 15% 0;
+    margin: 5% 0;
     font-family: 'Pacifico', cursive;
     color: #ff44bd;
 }

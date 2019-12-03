@@ -1,14 +1,15 @@
 {% extends 'base.html' %} {% block content %}
 
-<div class="container">
-
 <!--Main Paragraph-->
+<div class="container top-container">
     <h1 class="postTitle">Recipes</h1>
     <p class="postPara1">Discovered a delicous and nutritious meal? Or looking to find that perfect post workout snack! Check out the posts below for all your macro needs!</p>
     <p class="postPara2">If you have posted a workout and you are not happy with it, click on your post below and press the edit or delete button</p>
-<ul class="collapsible">
+</div>
 
 <!--Posts Content-->
+<div class="container bottom-container">
+<ul class="collapsible">
 {% for name in posts %}
     <li>
         <div class="collapsible-header planNameHeader">
