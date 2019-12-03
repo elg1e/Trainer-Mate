@@ -10,7 +10,6 @@
 	</head>
 
     <body>
-
 <!--Navigation Bar-->
     <nav id="navigationBar">
     <div class="nav-wrapper">
@@ -35,11 +34,13 @@
     <li><a class="sidenavText" href="{{url_for('post')}}">Share</a></li>
   </ul>
 
+<main>
 {% block content %}{% endblock %}
+</main>
 
 <!--Footer-->
-<footer class="footer-container">
-    <p class="footerText">Created by Dominic Elgie</p>
+<footer class="page-footer footer-container">
+    <p class="footerText">Created by Dominic Elgie © 2019</p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
