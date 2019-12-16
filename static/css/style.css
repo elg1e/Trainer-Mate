@@ -44,17 +44,49 @@ main {
 
 .homeParagraph {
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20%;
 }
 
 .logo {
     font-family: 'Pacifico', cursive;
     color: #ff44bd !important;
+    margin-bottom: 10%;
 }
 
 .introPara {
     color: white;
     font-size: 26px;
     margin-top: 5%;
+}
+
+/*Hompage Media Queries*/
+
+@media only screen and (min-width: 767px) and (max-height: 812px) {
+    .homeParagraph {
+    margin-top: 15%;
+    margin-bottom: 25%;
+    }
+} 
+
+@media only screen and (min-width: 767px) and (max-height: 1366px) {
+    .homeParagraph {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    }
+}
+
+@media only screen  and (min-width : 1224px) {
+    .homeParagraph {
+    margin-top: 0;
+    margin-bottom: 5%;
+    }
+    .logo {
+        margin-bottom: 1%;
+    }
+    .image-carousel {
+        margin-bottom: 2.5%;
+    }
 }
 
 /*Carousel*/
