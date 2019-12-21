@@ -13,7 +13,8 @@ The aim for TrainerMate is to have a simple and easy way for user's to find and 
  * As a user looking to gain muscle, I want to be able to find exercises to help me learn and improve my way of exercising.
  * As a user, I want to share my meal plans with others so that they help user's the same way they helped me.
  * As a user, I want to post recipes that helped me stay healthy with others.
- * As a user, I want to have a choice to edit or remove my posts if I decide I'm not happy with it.
+ * As a user, I want to have a choice to edit my posts if I have made a mistake.
+ * As a user, I want to be able to remove my posts if I decide I'm no longer happy with it.
 
  ### Wireframes/Mock-Up's
 
@@ -70,6 +71,50 @@ The following technologies were used to help create this website:
 * [MaterializeCSS](https://materializecss.com/): Is a modern responsive CSS framework based on Material Design by Google.
 
 ## Testing
+
+Manual testing was best suited for the website and this is the steps taken: 
+
+### Searching on TrainerMate for Workout Routines
+
+1. From the homepage, hover the mouse over the navigaion bar and click Workout routines.
+2. Once you have entered the Workout routines page, scroll and look through the workout routines.
+3. Finally when you have found the correct routine click the title and the dropdown description will appear.
+
+### Sharing Meal Plans
+
+1. From the homepage, move the mouse to the navigation bar and click Share.
+2. Once you have entered the Share page use the form to add the information you wish to share.
+3. Start by choosing the Meal Plans category.
+4. Then, press the plan title and enter the desired title.
+5. After this, press the plan description section of the form and enter the desired description.
+6. Finally, press the share button.
+7. This will then send you back to the homepage.
+
+#### Validation Test
+
+1. Repeat steps 1, 2 and 3 for Sharing Meal Plans.
+2. To test the Validation of the Plan title skip step 4.
+3. Then, Enter a plan description.
+4. Finally, press the share button.
+5. The form will ask you to fill in the missing field.
+
+* By repeating these steps again but entering a plan title but not a plan description the form will ask again to fill in the missing field.
+
+### Editing Posts
+
+1. From the homepage, move to the navigation bar and click the desired tab for which type of plan you have created.
+2. For example when entering the recipes page, press the title which you choose to edit.
+3. Press the title dropdown and click the edit button.
+4. After entering the edit posts page, in the form choose which section you'd like to change.
+5. Then click the post button when you are complete.
+
+### Deleting posts
+
+1. When entering the Homepage, move the mouse to the navigation bar and click the category tab of the plan you have created.
+2. For example, when entering the workout routines page, look for the plan title that you wish to delete.
+3. Then, click the plan title, This will dropdown the plan's description and show the edit or delete buttons.
+4. Press the delete button.
+5. Repeat steps 1 and 2 to check for the plan name you wanted to delete.
 
 ## Deployment
 
