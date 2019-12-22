@@ -1,6 +1,6 @@
 ![TrainerMateLogo](https://github.com/elg1e/TrainerMate/blob/master/static/images/trainerMateLogo.png)
 
-A website where anyone can share there workout routines, exercises, meal plans and recipes.
+A website where anyone can share there workout routines, meal plans and recipes.
 TrainerMate allows people across the world to find and share new ways for working out.
 
 ## UX
@@ -18,7 +18,7 @@ The aim for TrainerMate is to have a simple and easy way for user's to find and 
 
  ### Wireframes/Mock-Up's
 
-Below there are links to my initial ideas/mock-ups of the website:
+Below there are images of my initial ideas/mock-ups of the website:
 
 * Mockup image of the website: 
  
