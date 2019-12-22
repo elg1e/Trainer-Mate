@@ -121,6 +121,41 @@ Manual testing was best suited for the website and this is the steps taken:
 4. Press the delete button.
 5. Repeat steps 1 and 2 to check for the plan name you wanted to delete.
 
+## Responsive Design
+
+The website has been tested using the developer tools and also with Am i Responsive. This was done so that the website will be compatible in all different screen sizes. When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible.
+
+The website has been tested in the following device resolutions:
+
+### Mobiles
+
+* Pixel 2/XL
+* iPhone 5/SE/6/7/8
+* iPhone 6/7/8+
+* iPhone X
+* Galaxy S5/S9/S9+
+
+### Tablets
+
+* iPad/iPad Pro
+* Kindle Fire HDX
+
+### Desktops/XL Desktops
+ 
+The website has been tested with these browsers:
+
+* Google Chrome
+* FireFox
+* Internet Explorer
+
+### Validation
+
+The website has be validated using:
+
 ## Deployment
+
+To create the website, I have used the coding platform Gitpod[https://www.gitpod.io/]. Deployment and source control was entirely done via GitHub. 
+
+My repository can be found here: https://github.com/elg1e/TrainerMate
 
 ## Credits
