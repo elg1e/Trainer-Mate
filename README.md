@@ -123,7 +123,7 @@ Manual testing was best suited for the website and this is the steps taken:
 
 ## Responsive Design
 
-The website has been tested using the developer tools and also with Am i Responsive. This was done so that the website will be compatible in all different screen sizes. When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible.
+The website has been tested using the developer tools and also with [Am i Responsive](http://ami.responsivedesign.is/). This was done so that the website will be compatible in all different screen sizes. When the site is used on a small screen size the site is designed to stay as simple and clutterless as possible.
 
 The website has been tested in the following device resolutions:
 
@@ -154,8 +154,10 @@ The website has be validated using:
 
 ## Deployment
 
-To create the website, I have used the coding platform Gitpod[https://www.gitpod.io/]. Deployment and source control was entirely done via GitHub. 
+To create the website, I have used the coding platform [Gitpod](https://www.gitpod.io/). Deployment and source control was entirely done via GitHub. 
 
-My repository can be found here: https://github.com/elg1e/TrainerMate
+My repository can be found here: 
+
+https://github.com/elg1e/TrainerMate
 
 ## Credits
