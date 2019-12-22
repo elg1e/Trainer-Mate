@@ -1,4 +1,4 @@
-[TrainerMateLogo]: https://github.com/elg1e/TrainerMate/blob/master/static/images/trainerMateLogo.png
+![TrainerMateLogo](https://github.com/elg1e/TrainerMate/blob/master/static/images/trainerMateLogo.png)
 
 A website where anyone can share there workout routines, exercises, meal plans and recipes.
 TrainerMate allows people across the world to find and share new ways for working out.
