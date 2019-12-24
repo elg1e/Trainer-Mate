@@ -91,10 +91,15 @@ main {
 
 /*Carousel*/
 
+.image-carousel {
+    position: relative;
+}
+
 .carouselImages {
    height: 100%; 
    width: 100%;
    z-index: -1;
+   position: absolute;
 }
 
 /*Carousel Text*/
@@ -102,15 +107,18 @@ main {
 .imageHeading {
     z-index: 1;
     color: white;
+    margin-top: 50px;
 }
 
 .imageText {
     z-index: 1;
     color: white;
+    margin-top: 30px;
 }
 
 .carouselButton {
     z-index: 1;
+    margin-top: 150px;
 }
 
 /*Workout/Meal/Recipe Pages*/
@@ -250,7 +258,6 @@ main {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   background-color: #ff44bd;
-  margin: 0 10px;
   font-size: 14px;
 }
 .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {

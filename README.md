@@ -154,10 +154,18 @@ The website has be validated using:
 
 ## Deployment
 
-To create the website, I have used the coding platform [Gitpod](https://www.gitpod.io/). Deployment and source control was entirely done via GitHub. 
+To create the website, I have used the coding platform [Gitpod](https://www.gitpod.io/). Deployment and source control was entirely done via [GitHub](https://github.com/). 
 
 My repository can be found here: 
 
 https://github.com/elg1e/TrainerMate
 
 ## Credits
+
+### Media 
+
+The images used for the website were taken from:
+
+* [Recipes Image](https://www.diabetes.org/nutrition/healthy-food-choices-made-easy?language_content_entity=en)
+* [Meal Plan Image](https://bobbyberk.com/what-is-meal-prep-and-how-to-meal-prep-better-according-to-an-expert/)
+* [Workout Routines Image](https://wallpapercave.com/gym-wallpaper-hd)
