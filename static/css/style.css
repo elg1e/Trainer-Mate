@@ -91,15 +91,10 @@ main {
 
 /*Carousel*/
 
-.image-carousel {
-    position: relative;
-}
-
 .carouselImages {
    height: 100%; 
    width: 100%;
    z-index: -1;
-   position: absolute;
 }
 
 /*Carousel Text*/

@@ -113,7 +113,7 @@ Manual testing was best suited for the website and this is the steps taken:
 4. After entering the edit posts page, in the form choose which section you'd like to change.
 5. Then click the post button when you are complete.
 
-### Deleting posts
+### Deleting Posts
 
 1. When entering the Homepage, move the mouse to the navigation bar and click the category tab of the plan you have created.
 2. For example, when entering the workout routines page, look for the plan title that you wish to delete.
@@ -159,6 +159,12 @@ To create the website, I have used the coding platform [Gitpod](https://www.gitp
 My repository can be found here: 
 
 https://github.com/elg1e/TrainerMate
+
+I've published the source code built from the master branch using GitHub Pages. 
+
+The live site can be found here:
+
+https://elg1e.github.io/TrainerMate/
 
 ## Credits
 
