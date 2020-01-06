@@ -21,8 +21,10 @@ def post():
 @app.route('/add_post', methods=["POST"])
 def add_post():
     posts = mongo.db.posts
+    form_data = request.form.to_dict()
     posts.insert_one(request.form.to_dict())
-    return redirect(url_for('home'))
+    url_map = {'Recipes': 'recipes', 'Workout Routines': 'workout', 'Meal Plans': 'meal'}
+    return redirect(url_for(url_map[form_data['category_name']]))
 
 @app.route('/workout')
 def workout():
