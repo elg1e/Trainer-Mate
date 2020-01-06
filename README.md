@@ -152,9 +152,12 @@ The website has been tested with these browsers:
 
 The website has be validated using:
 
+[W3C Markup Validation Service](https://validator.w3.org/)
+
+
 ## Deployment
 
-To create the website, I have used the coding platform [Gitpod](https://www.gitpod.io/). Deployment and source control was entirely done via [GitHub](https://github.com/). 
+To create the website, I have used the coding platform [Gitpod](https://www.gitpod.io/). Deployment and source control was done via [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/). 
 
 My repository can be found here: 
 
@@ -165,6 +168,10 @@ I've published the source code built from the master branch using GitHub Pages.
 The live site can be found here:
 
 https://elg1e.github.io/TrainerMate/
+
+Follow these steps for deployment using [Heroku](https://www.heroku.com/):
+
+
 
 ## Credits
 

@@ -50,12 +50,12 @@ def edit_posts(posts_id):
 @app.route('/update_posts/<posts_id>', methods=["POST"])
 def update_posts(posts_id):
     posts = mongo.db.posts
-    posts.update( {'_id': ObjectId(posts_id)},
-    {
-        'plan_name':request.form.get('plan_name'),
-        'category_name':request.form.get('category_name'),
-        'workout_description':request.form.get('workout_description'),
-    })
+    posts.update_one( {'_id': ObjectId(posts_id)},
+    {'$set': {
+    'plan_name':request.form.get('plan_name'), 
+    'category_name':request.form.get('category_name'), 
+    'workout_description':request.form.get('workout_description'), 
+    }}, upsert=True)
     return redirect(url_for('home'))
 
 @app.route('/delete_posts/<posts_id>')
