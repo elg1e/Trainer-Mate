@@ -63,6 +63,10 @@ def delete_posts(posts_id):
     mongo.db.posts.remove({'_id': ObjectId(posts_id)})
     return redirect(url_for('home'))
 
+@app.route('/contact')
+def contact():
+    return render_template("contact.html")
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP','0.0.0.0'),
             port=int(os.environ.get('PORT','8000')),

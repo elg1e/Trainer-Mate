@@ -22,6 +22,7 @@
         <li class="navList"><a href="{{url_for('meal')}}">Meal Plans</a></li>
         <li class="navList"><a href="{{url_for('recipes')}}">Recipes</a></li>
         <li class="navList"><a href="{{url_for('post')}}">Share</a></li>
+        <li class="navList"><a href="{{url_for('contact')}}">Contact Us</a></li>
       </ul>
     </div>
   </nav>
@@ -33,6 +34,7 @@
     <li><a class="sidenavText" href="{{url_for('meal')}}">Meal Plans</a></li>
     <li><a class="sidenavText" href="{{url_for('recipes')}}">Recipes</a></li>
     <li><a class="sidenavText" href="{{url_for('post')}}">Share</a></li>
+    <li><a class="sidenavText" href="{{url_for('contact')}}">Contact Us</a></li>
   </ul>
 
 <main>
@@ -58,6 +60,10 @@
         fullWidth: false,
         indicators: true
     });
+
+    function confirmation() {
+        confirm("Your form has been sent!");
+    }
 </script>
 
 </body>
