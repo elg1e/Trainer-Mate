@@ -84,17 +84,30 @@ main {
     .logo {
         margin-bottom: 1%;
     }
-    .image-carousel {
-        margin-bottom: 2.5%;
+    .introPara {
+        font-size: 22px;
+    }
+    .carousel-container {
+    margin-bottom: 2.5%;
+    height: 550px;
     }
 }
 
 /*Carousel*/
 
-.carouselImages {
-   height: 100%; 
-   width: 100%;
-   z-index: -1;
+.firstBackground {
+    background-image: url("../images/workoutImage.gif");
+    background-size: 100% 100%;
+}
+
+.secondBackground {
+    background-image: url("../images/mealPlanImage.gif");
+    background-size: 100% 100%;
+}
+
+.thirdBackground {
+    background-image: url("../images/recipesImage.gif");
+    background-size: 100% 100%;
 }
 
 /*Carousel Text*/
