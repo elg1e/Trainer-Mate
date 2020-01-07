@@ -3,13 +3,13 @@
 <!--Main Paragraph-->
 <div class="container">
     <h1 class="shareTitle">Edit Post</h1>
-	<p class="sharePara">To edit your Workout routines, Meal Plans or Recipes select the category, plan name or plan description you wish to change then press post!</p>
+	<p class="sharePara">To edit your Workout routines, Meal Plans or ecipes select the category, plan name or plan description you wish to change then press post!</p>
 </div>
 
 <!--Edit Form-->
 <div class="container">
 	<div class="row">
-		<form action="{{url_for('add_post')}}" method="POST" class="col s12">
+		<form action="{{url_for('update_posts', posts_id=post._id)}}" method="POST" class="col s12">
 			<div class="row">
 				<div class="input-field col s12">
 					<select id="categories" name="category_name" class="formText">
@@ -38,7 +38,7 @@
 						<label for="textarea1" class="formText">Plan Description</label>
 					</div>
 				</div>
-				<button class="btn waves-effect waves-light submitButton" type="submit">Post
+				<button action="{{url_for('update_posts', posts_id=post._id)}}" class="btn waves-effect waves-light submitButton" type="submit">Post
 					<i class="material-icons right">send</i>
 				</button>
 			</div>
