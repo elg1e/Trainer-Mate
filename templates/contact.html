@@ -9,32 +9,32 @@
     <form class="col s12" action="" method="POST">
       <div class="row">
         <div class="input-field col s6">
-          <input id="first_name" type="text" name="firstName" class="validate" required="required">
+          <input id="first_name" type="text" name="firstName" class="validate" required>
           <label for="first_name">First Name</label>
         </div>
         <div class="input-field col s6">
-          <input id="last_name" type="text" name="lastName" class="validate" required="required">
+          <input id="last_name" type="text" name="lastName" class="validate" required>
           <label for="last_name">Last Name</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
-          <input id="email" type="email" name="email" class="validate" required="required">
+          <input id="email" type="email" name="email" class="validate" required>
           <label for="email">Email Address</label>
         </div>
         <div class="input-field col s6">
-          <input id="confirmEmail" type="email" name="email" class="validate" required="required">
+          <input id="confirmEmail" type="email" name="email" class="validate" required>
           <label for="email">Confirm Email Address</label>
         </div>
       </div>
         <div class="row">
             <div class="input-field col s12">
-                <textarea id="textarea1" class="materialize-textarea" name="description" required="required"></textarea>
+                <textarea id="textarea1" class="materialize-textarea" name="description" required></textarea>
                 <label for="textarea1">Help us understand by giving as much description as possible</label>
             </div>
         </div>
         <div class="row">
-            <a href="{{url_for('home')}}" class="waves-effect waves-light btn hvr-buzz-out" type="submit" name="action" onclick="confirmation()">Submit
+            <a href="{{url_for('home')}}" class="waves-effect waves-light btn hvr-buzz-out" type="submit" name="action">Submit
                 <i class="material-icons right">send</i>
             </a>
         </div>
