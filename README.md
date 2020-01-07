@@ -154,7 +154,6 @@ The website has be validated using:
 
 [W3C Markup Validation Service](https://validator.w3.org/)
 
-
 ## Deployment
 
 To create the website, I have used the coding platform [Gitpod](https://www.gitpod.io/). Deployment and source control was done via [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/). 
@@ -180,7 +179,9 @@ Follow these steps for deployment using [Heroku](https://www.heroku.com/):
 6. Then, by typing in the terminal: heroku ps:scale web=1 this will then get the [Heroku](https://www.heroku.com/) app up and running.
 7. Finally, open up the [Heroku](https://www.heroku.com/) app settings on the [Heroku](https://www.heroku.com/) website and make sure to set the config variables (IP/PORT).
 
+The web application using Heroku can be found here:
 
+https://trainer-mate.herokuapp.com/
 
 ## Credits
 
