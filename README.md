@@ -171,6 +171,15 @@ https://elg1e.github.io/TrainerMate/
 
 Follow these steps for deployment using [Heroku](https://www.heroku.com/):
 
+1. Firstly, log into [Heroku](https://www.heroku.com/) and created a new application.
+2. Then, follow the steps [Heroku](https://www.heroku.com/) give you on the website to connect [Heroku](https://www.heroku.com/) to the web app. These steps are to install the
+[Heroku](https://www.heroku.com/) CLI by logging in.
+3. After this, create a new [GitHub](https://github.com/) repository.
+4. Once this is complete deploy the application by commiting and pushing the work via git push heroku master branch.
+5. Before pushing anything to [Heroku](https://www.heroku.com/) you must have a requirements.txt file and a Procfile.
+6. Then, by typing in the terminal: heroku ps:scale web=1 this will then get the [Heroku](https://www.heroku.com/) app up and running.
+7. Finally, open up the [Heroku](https://www.heroku.com/) app settings on the [Heroku](https://www.heroku.com/) website and make sure to set the config variables (IP/PORT).
+
 
 
 ## Credits
