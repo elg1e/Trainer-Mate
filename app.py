@@ -2,10 +2,13 @@ import os
 from flask import Flask, render_template, redirect, request, url_for
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+from os import path
+if path.exists("env.py"):
+    import env
 
 app = Flask(__name__)
-app.config["MONGO_DBNAME"] = 'TrainerMate'
-app.config["MONGO_URI"] = 'mongodb+srv://root:root123@myfirstcluster-rieqe.mongodb.net/TrainerMate?retryWrites=true&w=majority'
+app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
+app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
 
 mongo = PyMongo(app)
 
