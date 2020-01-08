@@ -60,6 +60,8 @@ Other features that could be implemented in the future could be sign in method a
 them to choose if they'd like to remove something from an earlier date. Furthermore, a like button or a comment area could be added to give the other users reading a chance to
 share there opinion on someone elses post.
 
+One final feature that was added but has yet to have any functionality is the Contact Us form. This form was added for UX/UI but could be made functional in the future.
+
 ## Technologies Used
 
 The following technologies were used to help create this website:
@@ -152,8 +154,8 @@ The website has been tested with these browsers:
 
 The website has be validated using:
 
-HTML: [W3C Markup Validation Service](https://validator.w3.org/)
-CSS: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
+* HTML: [W3C Markup Validation Service](https://validator.w3.org/)
+* CSS: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
 
 ## Deployment
 
