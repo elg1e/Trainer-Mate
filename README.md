@@ -152,7 +152,8 @@ The website has been tested with these browsers:
 
 The website has be validated using:
 
-[W3C Markup Validation Service](https://validator.w3.org/)
+HTML: [W3C Markup Validation Service](https://validator.w3.org/)
+CSS: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
 
 ## Deployment
 
