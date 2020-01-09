@@ -116,6 +116,15 @@ main {
     z-index: 1;
     color: white;
     margin-top: 50px;
+    font-size: 30px;
+}
+
+.carousel.carousel-slider .carousel-item h2 {
+    font-size: 30px;
+}
+
+.carousel.carousel-slider .carousel-item p {
+    font-size: 20px;
 }
 
 .imageText {
