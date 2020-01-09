@@ -165,11 +165,9 @@ My repository can be found here:
 
 https://github.com/elg1e/TrainerMate
 
-I've published the source code built from the master branch using GitHub Pages. 
+The live website was deployed using Heroku. The site can be found here: 
 
-The live site can be found here:
-
-https://elg1e.github.io/TrainerMate/
+https://trainer-mate.herokuapp.com/
 
 Follow these steps for deployment using [Heroku](https://www.heroku.com/):
 
@@ -181,10 +179,6 @@ Follow these steps for deployment using [Heroku](https://www.heroku.com/):
 5. Before pushing anything to [Heroku](https://www.heroku.com/) you must have a requirements.txt file and a Procfile.
 6. Then, by typing in the terminal: heroku ps:scale web=1 this will then get the [Heroku](https://www.heroku.com/) app up and running.
 7. Finally, open up the [Heroku](https://www.heroku.com/) app settings on the [Heroku](https://www.heroku.com/) website and make sure to set the config variables (IP/PORT).
-
-The web application using Heroku can be found here:
-
-https://trainer-mate.herokuapp.com/
 
 ## Credits
 
